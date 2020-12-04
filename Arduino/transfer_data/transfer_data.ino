@@ -39,7 +39,7 @@ void loop() {
     delay(3);
     char c = BT.read();
     readString += c;
-  } vc  
+  } 
   readString.trim();
 
   if(readString.length() > 0) {
