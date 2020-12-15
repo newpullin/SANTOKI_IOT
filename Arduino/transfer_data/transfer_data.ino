@@ -43,11 +43,11 @@ void loop() {
   readString.trim();
 
   if(readString.length() > 0) {
-    if(readString.startsWith("on")) {
+    if(readString.indexOf("on")!= -1) {
       digitalWrite(GREEN_PIN, HIGH);
       digitalWrite(YELLOW_PIN, LOW);
     }
-    if(readString.startsWith("of")) {
+    if(readString.indexOf("of")!= -1) {
       digitalWrite(GREEN_PIN, LOW);
       digitalWrite(YELLOW_PIN, HIGH);
     }
