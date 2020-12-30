@@ -8,9 +8,13 @@
 실시간 온도 데이터와 디바이스 정보는 Firebase의 real time DB를 사용하였고<br>
 시계열 데이터는 InfluxDB를 사용하여 저장하였습니다.<br>
 이후 플라스크 서버 API를 통해 InfluxDB의 시계열 데이터를 가져와서 FrontEnd인 Vue에서<br>
-뿌려주게 됩니다.
+뿌려주게 됩니다. <br><br>
 
-* 플라스크 실행장면
+
+## 스크린샷
+
+* 라즈베리파이
+
 <img src="https://user-images.githubusercontent.com/69225568/103328075-b8c0e380-4a9a-11eb-9d6a-dccaed71a397.PNG" width="600" alt="라즈베리파이 실행장면">
 
 * InfluxDB와 Granafa 연동을 통한 대시보드
